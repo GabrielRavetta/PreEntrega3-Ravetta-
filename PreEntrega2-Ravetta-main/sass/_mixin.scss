@@ -1,0 +1,14 @@
+@mixin size ($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+@mixin margins ($mTop, $mBottom) {
+    margin-top: $mTop;
+    margin-bottom: $mBottom;
+}
+
+@mixin backgrounds($f1 , $f2) {
+    background: $f1;
+    background: $f2;
+}

@@ -1,0 +1,15 @@
+/* INFORMACION DEL LOCAL */
+.info {
+    margin: 1em;
+}
+
+/* HISTORIA/CONTACTO/UBICACION */
+h3 {
+    font-size: xx-large;
+}
+
+/* DEFINIMOS EL TAMAÑO DE LAS IMAGENES DE FORMAS DE PAGO*/
+/*USAMOS MIXIN, CON VARIABLES GLOBALES Y OPERACIONES COMO PARAMETROS*/
+.logos {
+    @include size ($sizePortada, $sizePortada/2);
+}

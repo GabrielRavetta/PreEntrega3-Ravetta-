@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: $fondoBody1;
+    background: $fondoBody2;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* OFERTAS/NOSOTROS/PAGOS/REDES/ETC */
+h2 {
+    @include backgrounds ($fondoFooter1,$fondoFooter2);
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+}
+
+h1 {
+    @extend h2;
+    font-size: large;
+}
+
+.portada {
+    width: 100%;
+}
+
+/* DEFINIMOS EL ESTILO DE TODOS LOS PRODUCTOS*/
+.productosPortada {
+    @include size($sizePortada, $sizePortada);
+}
+
+.box1 {
+    border: 2px solid $bordes;
+    background-image: $fondoProductos;
+    background-size: 100% 100%;
+}
+
+.precio {
+    font-size: 1.5em;
+}

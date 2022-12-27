@@ -1,0 +1,37 @@
+/* DEFINIMOS LAS AREAS CON GRIDS */
+header {
+    grid-area: header;
+}
+
+.gridNosotros {
+    grid-area: nosotros;
+}
+
+.gridOfertas {
+    grid-area: ofertas;
+}
+
+.gridNovedades {
+    grid-area: novedades;
+}
+
+.gridPagos {
+    grid-area: pagos;
+}
+
+footer {
+    grid-area: footer;
+}
+
+/* MAQUETAMOS LA ESTUCTURA DE LA WEB */
+
+.contenedor {
+    display: grid;
+    grid-template-areas:
+        "header"
+        "nosotros"
+        "ofertas"
+        "novedades"
+        "pagos"
+        "footer";
+}

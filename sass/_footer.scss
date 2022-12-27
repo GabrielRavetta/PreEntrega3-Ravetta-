@@ -1,0 +1,20 @@
+/* MODELAMOS LA CAJA CONTENEDORA DE LAS REDES SOCIALES */
+.redes {
+    @include backgrounds ($fondoBody1,$fondoBody2);
+    border: 2px solid $bordes;
+    @include margins (-0.5em, 1em);
+    margin-left: 2em;
+    margin-right: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* Aplicamos Mixing y utilizamos variables globales*/
+.logosRedes {
+    @include size ($sizeLogos, $sizeLogos);
+}
+
+footer {
+    @include backgrounds ($fondoFooter1,$fondoFooter2);
+}

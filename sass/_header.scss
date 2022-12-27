@@ -1,0 +1,42 @@
+header {
+    @include backgrounds ($fondoBody1,$fondoBody2);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: large;
+    border-bottom: 2px solid $bordes;
+    text-transform: uppercase;
+}
+
+/* APLICAMOS NESTING*/
+
+.navbar {
+    margin-top: 0.7em;
+    align-items: baseline;
+    .container-fluid {
+        justify-content: flex-end;
+    }
+}
+
+.btn-outline-primary{
+    color: rgb(240, 231, 231);
+    border-color: gray;
+}
+
+.btn-outline-primary:hover{
+    background:rgb(4, 47, 110);
+    border-color: white;
+}
+.btn-outline-primary:active{
+    background:rgb(4, 47, 110);
+    border-color: white;
+
+}
+.logoRavetta {
+    @include size($sizeRavetta, $sizeRavetta);
+}
+
+.navbar-nav .nav-link {
+    display: flex;
+    justify-content: flex-end;
+}

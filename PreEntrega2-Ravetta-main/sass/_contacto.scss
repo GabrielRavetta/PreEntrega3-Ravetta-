@@ -1,0 +1,45 @@
+/* APLICAMOS NESTING */
+/* UTILIZAMOS MIXIN */
+
+.contact {
+    @include margins (2em, 2em);
+
+    .map {
+        width: $porcentaje;
+    }
+
+    .envForm {
+        color: white;
+        padding: 1em;
+        width: $porcentaje2;
+        margin-top: 2em;
+    }
+
+    .formulario {
+        text-transform: uppercase;
+        @include backgrounds ($fondoBody1,$fondoBody2);
+        text-align: left;
+        border: 2px solid white;
+
+        .formCampos {
+            margin: 0;
+            padding: 1em;
+        }
+
+        button,
+        input,
+        textarea {
+            width: 100%;
+            padding: .7em;
+            border: none;
+            border-bottom: 1px solid black;
+        }
+
+        button {
+            color: white;
+            @include backgrounds ($fondoFooter1,$fondoFooter2);
+            text-transform: uppercase;
+            padding: 1em;
+        }
+    }
+}

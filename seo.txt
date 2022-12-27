@@ -1,0 +1,16 @@
+1- Se colocó la etiqueta meta description en todos los HTML:
+index: Somos una empresa familiar con más de 85 años de trayectoria. Acá podes encontrar todo lo que necesitas para tu casa
+muebles: Variedad de muebles para tu casa
+juguetes: Encontrá el juguete que buscas para los más peques!!
+electrodomesticos: Encontrá lo que necesitas en audio, tv, calefaccion y demas articulos para tu hogar
+contacto: Por este medio podes encontrarnos por nuestros distintos canales de comunicacion
+
+
+2- También agregué la etiqueta meta keywords en todos los HTML:
+index: muebles, hogar, juguetes, electrodomesticos, electronica
+muebles: muebles, hogar, mesas, sillas, placard
+juguetes: juguetes, futbol, niños, muñecas, bijou
+electrodomesticos: electrodomesticos, tv, audio, cocina, heladeras
+contacto: contacto, redes, mapa, telefono, ubicacion
+
+3- Se disminuyeron resoluciones de imagenes para optimizar los tiempos de carga

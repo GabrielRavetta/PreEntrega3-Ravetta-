@@ -1,0 +1,72 @@
+.productos {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    gap: 2.5em;
+    margin: 1.5em;
+}
+
+@media (min-width:500px) {
+    .logoRavetta {
+        @include size($sizeRavetta*1.2, $sizeRavetta*1.2);
+    }
+
+    .navbar {
+        margin-top: 1.1em;
+    }
+}
+
+@media (min-width:768px) {
+    .productos {
+        grid-template-columns: 1fr 1fr;
+    }
+    h1 {
+        font-size: xx-large;
+    }
+    
+    .contact {
+        .map {
+            width: 60%;
+        }
+
+        .envForm {
+            margin-left: 15%;
+            width: 70%;
+        }
+    }
+
+    /* TRANSFORMACIONES */
+
+    .productosPortada:hover {
+        transform: scale(1.1);
+        transition-property: all;
+        transition-duration: 0.2s;
+    }
+
+    .logosRedes:hover {
+        transform: scale(1.1);
+        transition-property: all;
+        transition-duration: 0.2s;
+    }
+
+    .logoRavetta:hover {
+        transform: scale(1.1);
+        transition-property: all;
+        transition-duration: 0.2s;
+    }
+
+    .navegador:hover {
+        transform: scale(1.1);
+        transition-property: all;
+        transition-duration: 0.2s;
+    }
+
+}
+
+@media(min-width:1024px) {
+    .productos {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+}
